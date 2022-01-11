@@ -14,7 +14,7 @@ def connectAP(ssid, pwd):
         while not wlan.isconnected():
             pass
         
-connectAP('patri', '00000000')    connectAP('your wifi name', 'your wifi passward')
+connectAP('patri', '00000000')    #connectAP('your wifi name', 'your wifi passward')
 import webrepl
 webrepl.start()
 gc.collect()
