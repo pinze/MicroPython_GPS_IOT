@@ -33,5 +33,5 @@ A topic of GPS IOT application for use with MicroPython and ESP8266 mini D1.Send
 |     `Rx`       |     `Tx`       |                |                |
 |     `Tx`       |     `Rx`       |                |                |
 |     `GPIO 4`   |                |    `Single`    |                |
-|`SCLˋ(`GPIO 13`)|                |                |     `SCL`      |
-|`SDAˋ(`GPIO 12`)|                |                |     `SDA`      |
+|`SCL`(`GPIO 13`)|                |                |     `SCL`      |
+|`SDA`(`GPIO 12`)|                |                |     `SDA`      |
