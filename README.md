@@ -26,21 +26,12 @@ A topic of GPS IOT application for use with MicroPython and ESP8266 mini D1.Send
   <img src="https://user-images.githubusercontent.com/63340820/149466806-988e36ae-f8bc-4897-a774-3e369ae7b832.png" width="300"/>
 
 # Writing
-|**D1 mini** |  **6MV2**  |  **DHT11** |  **OLED**  |
-|:----------:|:----------:|:----------:|:----------:|
-|   '3.3 '   ||||
-|    GND     ||||
-|     Rx     |Tx|||
-|     Tx     |'Rx'|||
-|   GPIO 4   ||||
-|SCL(GPIO 13)||||
-|SDA(GPIO 12)||||
-
-
-|		|		|
-|:-----:|:-----:|
-|**Wipy 2.0**|**NEO-6M/NEO-M8N**|	
-| `3.3v`| `VCC` | 
-| `GND` | `GND` | 
-| `P3`(`G12`) | `RX`  |	   
-| `P4`(`G11`) | `TX`  |	
+|  **D1 mini**   |    **6MV2**    |    **DHT11**   |    **OLED**    |
+|:--------------:|:--------------:|:--------------:|:--------------:|
+|     ˋ3.3ˋ      |     ˋVCCˋ      |     ˋVCC'      |     ˋVCC'      |
+|     ˋGNDˋ      |     ˋGNDˋ      |     ˋGNDˋ      |     ˋGNDˋ      |
+|      ˋRxˋ      |      ˋTxˋ      |                |                |
+|      ˋTxˋ      |      ˋRxˋ      |                |                |
+|    ˋGPIO 4ˋ    |                |    ˋSingleˋ    |                |
+|ˋSCLˋ(ˋGPIO 13ˋ)|                |                |     ˋSCLˋ      |
+|ˋSDAˋ(ˋGPIO 12ˋ)|                |                |     ˋSDAˋ      |
