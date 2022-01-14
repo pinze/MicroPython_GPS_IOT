@@ -13,7 +13,7 @@ A topic of GPS IOT application for use with MicroPython and ESP8266 mini D1.Send
   * ssd1306 0.96 inch OLED display
   * I2C driver
   
-  ![image](https://user-images.githubusercontent.com/63340820/149465817-9b5c8ae4-d40d-4392-be90-3d98c6935ed0.png)
+  ![image](https://user-images.githubusercontent.com/63340820/149467712-d794934c-0668-40f0-80a0-8d5e81810b48.png)
  
 ## 3. DHT11 Humidity&Temperature Sensor
   
