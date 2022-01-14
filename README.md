@@ -28,7 +28,7 @@ A topic of GPS IOT application for use with MicroPython and ESP8266 mini D1.Send
 # Writing
 |**D1 mini** |  **6MV2**  |  **DHT11** |  **OLED**  |
 |:----------:|:----------:|:----------:|:----------:|
-|    3.3 V   ||||
+|   '3.3 '   ||||
 |    GND     ||||
 |     Rx     |Tx|||
 |     Tx     |'Rx'|||
