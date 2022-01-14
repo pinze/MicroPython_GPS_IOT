@@ -50,4 +50,46 @@ https://github.com/DDPlay123/IoT_Python_Server
 3. set your wifi's name and password in boot
 3. burn main.py into D1 mini
 
+# main
+--------
+```
+# Main function
+gps = GPS()
+oled = OLED()
+#d = dht.DHT11(Pin(2))
 
+def loop():
+    global gps, oled, api, d4
+    
+    gpsStr = b''
+    gpsReading = False    
+    
+    while True:
+        data = gps.getGPSInfo()
+        #d.measure()
+        if data and (gpsReading or ('$GPRMC' in data)) :
+            gpsStr += data
+            if '\n' in data:
+                gpsReading = False
+                #temp = d.temperature()
+                #hum = d.humidity()
+                lat, long= gps.convertGPS(gpsStr)
+                oled.displayGPS(lat, long)
+                # Send lat&long to Web Server
+                # 伺服器平常不會開，沒開時，請關閉此段落。
+                #############
+                
+                value1 = '{"longitude":'+'"'+long+'"'+','
+                value2 = '"latitude":'+'"'+lat+'"'+','
+                #value3 = '"temp":'+'"'+str(temp)+'"'+','
+                #value4 = '"humid":'+'"'+str(hum)+'"}'
+                data = value1+value2#+value3+value4
+                r = requests.post(url,data=data,headers=header)
+                #############
+                
+                gpsStr = b''
+                gc.collect()
+                break
+            else:
+                gpsReading = True
+```  
