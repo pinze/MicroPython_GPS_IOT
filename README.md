@@ -13,16 +13,16 @@ A topic of GPS IOT application for use with MicroPython and ESP8266 mini D1.Send
   * ssd1306 0.96 inch OLED display
   * I2C driver
   
-  ![image](https://user-images.githubusercontent.com/63340820/149467712-d794934c-0668-40f0-80a0-8d5e81810b48.png)
+  <img src="https://user-images.githubusercontent.com/63340820/149467712-d794934c-0668-40f0-80a0-8d5e81810b48.png" width="300"/>
  
 ## 3. DHT11 Humidity&Temperature Sensor
   
-  ![image](https://user-images.githubusercontent.com/63340820/149466127-64425eb8-e333-41c9-a9fb-04b791c0aeb0.png)
+  <img src="https://user-images.githubusercontent.com/63340820/149466127-64425eb8-e333-41c9-a9fb-04b791c0aeb0.png" width="300"/>
  
 ## 4. GY-GPS6MV2(blox NEO-6M)
   * UART TTL connector
   * EEPROM to store settings
   
-  ![image](https://user-images.githubusercontent.com/63340820/149466806-988e36ae-f8bc-4897-a774-3e369ae7b832.png)
+  <img src="https://user-images.githubusercontent.com/63340820/149466806-988e36ae-f8bc-4897-a774-3e369ae7b832.png" width="300"/>
 
 # Writing
