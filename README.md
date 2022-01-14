@@ -40,3 +40,8 @@ A topic of GPS IOT application for use with MicroPython and ESP8266 mini D1.Send
 |     `GPIO 4`   |                |    `Single`    |                |
 |`SCL`(`GPIO 13`)|                |                |     `SCL`      |
 |`SDA`(`GPIO 12`)|                |                |     `SDA`      |
+
+# Server
+https://github.com/DDPlay123/IoT_Python_Server
+
+
