@@ -28,10 +28,10 @@ A topic of GPS IOT application for use with MicroPython and ESP8266 mini D1.Send
 # Writing
 |  **D1 mini**   |    **6MV2**    |    **DHT11**   |    **OLED**    |
 |:--------------:|:--------------:|:--------------:|:--------------:|
-|     ˋ3.3ˋ      |     ˋVCCˋ      |     ˋVCC'      |     ˋVCC'      |
-|     ˋGNDˋ      |     ˋGNDˋ      |     ˋGNDˋ      |     ˋGNDˋ      |
-|      ˋRxˋ      |      ˋTxˋ      |                |                |
-|      ˋTxˋ      |      ˋRxˋ      |                |                |
-|    ˋGPIO 4ˋ    |                |    ˋSingleˋ    |                |
-|ˋSCLˋ(ˋGPIO 13ˋ)|                |                |     ˋSCLˋ      |
-|ˋSDAˋ(ˋGPIO 12ˋ)|                |                |     ˋSDAˋ      |
+|     `3.3`      |     `VCC`      |     `VCC`      |     `VCC`      |
+|     `GND`      |     `GND`      |     `GND`      |     `GND`      |
+|     `Rx`       |     `Tx`       |                |                |
+|     `Tx`       |     `Rx`       |                |                |
+|     `GPIO 4`   |                |    `Single`    |                |
+|`SCLˋ(`GPIO 13`)|                |                |     `SCL`      |
+|`SDAˋ(`GPIO 12`)|                |                |     `SDA`      |
