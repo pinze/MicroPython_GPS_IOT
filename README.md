@@ -44,4 +44,10 @@ A topic of GPS IOT application for use with MicroPython and ESP8266 mini D1.Send
 # Server
 https://github.com/DDPlay123/IoT_Python_Server
 
+#D1 mini set up
+1.Import webrepl_setup
+2.boot.py setting
+3.set your wifi's name and password in boot
+3.burn main.py into D1 mini
+
 
