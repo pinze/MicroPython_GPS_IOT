@@ -51,7 +51,6 @@ https://github.com/DDPlay123/IoT_Python_Server
 3. burn main.py into D1 mini
 
 # main
---------
 ```
 # Main function
 gps = GPS()
@@ -67,6 +66,7 @@ def loop():
     while True:
         data = gps.getGPSInfo()
         #d.measure()
+        #if data and (gpsReading or ('$GNRMC' in data)) :  #You need to check your GPS data is GPMRC or GNMRC
         if data and (gpsReading or ('$GPRMC' in data)) :
             gpsStr += data
             if '\n' in data:
@@ -76,8 +76,7 @@ def loop():
                 lat, long= gps.convertGPS(gpsStr)
                 oled.displayGPS(lat, long)
                 # Send lat&long to Web Server
-                # 伺服器平常不會開，沒開時，請關閉此段落。
-                #############
+
                 
                 value1 = '{"longitude":'+'"'+long+'"'+','
                 value2 = '"latitude":'+'"'+lat+'"'+','
@@ -88,7 +87,7 @@ def loop():
                 #############
                 
                 gpsStr = b''
-                gc.collect()
+                gc.collect()    #clear memory
                 break
             else:
                 gpsReading = True
