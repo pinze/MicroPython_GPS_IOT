@@ -1,5 +1,5 @@
 # MicroPython_GPS_IOT
-|badge_license|
+|badge_license| |pypi_version| |pypi_downloads|
 A topic of GPS IOT application for use with MicroPython and ESP8266 mini D1.Send the datas to the server and display it on the Google map.
 # Modules
 ## 1. ESP8266:
