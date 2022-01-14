@@ -7,7 +7,7 @@ A topic of GPS IOT application for use with MicroPython and ESP8266 mini D1.Send
   * 1analog input
   * 4 MB flash
   
-  ![image](https://user-images.githubusercontent.com/63340820/149464356-5e10162b-1b92-4701-b343-c4300a6a9824.png)width="120" height="100"
+  <img src="https://user-images.githubusercontent.com/63340820/149464356-5e10162b-1b92-4701-b343-c4300a6a9824.png" width="150"/>
  
 ## 2. 0.96 inch OLED
   * ssd1306 0.96 inch OLED display
