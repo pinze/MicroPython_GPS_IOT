@@ -44,16 +44,7 @@ A topic of GPS IOT application for use with MicroPython and ESP8266 mini D1.Send
 # Server
 https://github.com/DDPlay123/IoT_Python_Server
 
-| Bit[7..5] | Duration       | Bit[4..0] | Pitch 1       | Bit[4..0] | Pitch 2       | Bit[4..0] | Pitch 3       | Bit[4..0] | Pitch 4 |
-|-----------|-----------------|-----------|---------------|-----------|---------------|-----------|---------------|-----------|---------|
-| 000       | 1/32 Note       | 11000     | #Fa (High)    | 10000     | #La           | 01000     | Re            | 00000     | Rest    |
-| 001       | 1/16 Note       | 11001     | #So (High)    | 10001     | Si            | 01001     | #Re           | 00001     | So (Low) |
-| 010       | 1/8 Note        | 11010     | #So (High)    | 10010     | Do (High)     | 01010     | Mi            | 00010     | #So (Low) |
-| 011       | 1/4 Note (1 Beat)| 11011     | La (High)    | 10011     | #Do (High)    | 01011     | Fa            | 00011     | La (Low) |
-| 100       | 1/2 Note        | 11100     | #La (High)    | 10100     | Re (High)     | 01100     | #Fa           | 00100     | #La (Low) |
-| 101       | 1/2 Note + Dotted| 11101     | Si (High)    | 10101     | #Re (High)    | 01101     | So            | 00101     | Si (Low) |
-| 110       | Whole Note       | 11110     | DO (High High)| 10110     | Mi (High)    | 01110     | #So           | 00110     | Do      |
-| 111       | Song End         | 11111     |               | 10111     | Fa (High)    | 01111     | La           | 00111     | #Do     |
+
 
 # D1 mini set up
 1. Import webrepl_setup
